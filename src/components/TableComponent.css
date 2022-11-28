@@ -1,0 +1,47 @@
+table.tableUI {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table.tableUI th,
+table.tableUI td {
+  border: 1px solid #a2a1a1;
+  width: 175px;
+  min-height: 40px;
+  padding: 8px 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #383838;
+  gap: 10px;
+}
+td a {
+  color: #0071cc;
+}
+table.tableUI tr {
+  text-align: left;
+  border: none;
+}
+.table-data {
+  max-width: 920px;
+}
+table img.arrow-icon {
+  max-width: 12px;
+  transform: rotate(90deg);
+}
+
+table th span {
+  padding: 5px 10px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #e1e1e1;
+}
+.profile-box {
+  display: flex;
+  align-items: center;
+}
+.profile-box span {
+  padding: 0 10px;
+}
+.margin-top {
+  margin-top: 30px;
+}
